@@ -1,0 +1,12 @@
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\bin\Debug\net8.0\Movie.Domain.deps.json
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\bin\Debug\net8.0\Movie.Domain.dll
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\bin\Debug\net8.0\Movie.Domain.pdb
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.csproj.AssemblyReference.cache
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.AssemblyInfoInputs.cache
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.AssemblyInfo.cs
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.dll
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\refint\Movie.Domain.dll
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\Movie.Domain.pdb
+C:\Users\Ritech\RiderProjects\Movie.Api\Movie.Domain\obj\Debug\net8.0\ref\Movie.Domain.dll

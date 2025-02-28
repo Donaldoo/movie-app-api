@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jGxgEyxZnXc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ritech\\RiderProjects\\Movie.Api\\Movie.Domain\\Movie.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ritech\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
