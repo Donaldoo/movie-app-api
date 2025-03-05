@@ -9,4 +9,5 @@ public record Movie : EntityWithGuid
     public string CoverImageUrl { get; init; }
     public string VideoUrl { get; init; }
     public decimal Price { get; init; }
+    public decimal RentPrice { get; set; }
 }
