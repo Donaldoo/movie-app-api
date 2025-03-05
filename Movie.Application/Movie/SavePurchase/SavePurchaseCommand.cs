@@ -9,6 +9,7 @@ public record SavePurchaseCommand : IRequest<SaveOrderResponse>
     public Guid? PaymentId { get; init; }
     public Guid ProductId { get; init; }
     public OrderStatus Status { get; init; }
+    public PurchaseType PurchaseType { get; set; }
     public Uri RedirectUrl { get; init; }
     public Uri FailRedirectUrl { get; init; }
     public int ExpiresAfterMinutes { get; set; }

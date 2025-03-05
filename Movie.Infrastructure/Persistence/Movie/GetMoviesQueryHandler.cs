@@ -28,7 +28,8 @@ internal sealed class GetMoviesQueryHandler : IRequestHandler<GetMoviesQuery, IL
             VideoUrl = m.VideoUrl,
             Price = m.Price,
             IsPurchased = _currentUser != null && _db.Purchases.Any(p =>
-                p.MovieId == m.Id && p.OrderStatus == OrderStatus.Completed && p.UserId == _currentUser.UserId)
+                p.MovieId == m.Id && p.OrderStatus == OrderStatus.Completed && p.UserId == _currentUser.UserId),
+            RentPrice = m.RentPrice
         }).ToListAsync(cancellationToken);
     }
 }

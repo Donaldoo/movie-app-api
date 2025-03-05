@@ -10,11 +10,16 @@ public record Purchase : EntityWithGuid
     public Guid? PaymentId { get; init; }
     public OrderStatus OrderStatus { get; set; }
     public DateTimeOffset PurchaseDate { get; init; } = DateTimeOffset.UtcNow;
-    
+    public PurchaseType PurchaseType { get; set; }
     public User User { get; init; }
     public Movie Movie { get; init; }
 }
 
+public enum PurchaseType
+{
+    Buy,
+    Rent
+}
 public enum OrderStatus
 {
     Pending,

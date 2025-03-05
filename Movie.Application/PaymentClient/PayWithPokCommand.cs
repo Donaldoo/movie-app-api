@@ -8,7 +8,7 @@ public class PayWithPokCommand
     public Uri RedirectUrl { get; init; }
     public Uri FailRedirectUrl { get; init; }
     public int ExpiresAfterMinutes { get; set; }
-    public string WebhookUrl { get; set; }
+    public Uri WebhookUrl { get; set; }
 }
 
 public class PokConfirmation

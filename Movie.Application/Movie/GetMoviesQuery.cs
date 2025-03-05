@@ -13,4 +13,5 @@ public record MovieResponse
     public string VideoUrl { get; init; }
     public decimal Price { get; init; }
     public bool IsPurchased { get; init; }
+    public decimal RentPrice { get; set; }
 }

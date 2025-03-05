@@ -32,7 +32,7 @@ internal sealed class SavePurchaseCommandHandler : IRequestHandler<SavePurchaseC
                 {
                     Name = productFromDb.Title,
                     Quantity = 1,
-                    Price = productFromDb.Price,
+                    Price =request.PurchaseType == PurchaseType.Buy ? productFromDb.Price : productFromDb.RentPrice,
                 }
             };
             await _paymentClient.AuthorizePok(cancellationToken);
@@ -44,7 +44,7 @@ internal sealed class SavePurchaseCommandHandler : IRequestHandler<SavePurchaseC
                 FailRedirectUrl = request.FailRedirectUrl,
                 Products = products,
                 RedirectUrl = request.RedirectUrl,
-                WebhookUrl = "https://7c12-80-78-71-113.ngrok-free.app/api/webhooks/pokpay"
+                WebhookUrl = new Uri("https://700d-141-98-141-126.ngrok-free.app/api/webhooks/pokpay")
             }, cancellationToken);
 
             var order = new Purchase
